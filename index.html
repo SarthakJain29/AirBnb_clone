@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-left">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png" alt="Airbnb Logo">
+            </div>
+        </div>
+        <div class="search-bar">
+            <button class="search-option">Anywhere</button>
+            <div class="divider"></div>
+            <button class="search-option">Any week</button>
+            <div class="divider"></div>
+            <button class="search-option guests">Add guests</button>
+            <div class="search-button">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="host-button">Airbnb your home</div>
+            <div class="globe-icon">
+                <i class="fas fa-globe"></i>
+            </div>
+            <div class="profile-menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="categories-container">
+            <div class="category-item active">
+                <img src="https://a0.muscache.com/pictures/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.jpg" alt="Farms">
+                <span>Farms</span>
+            </div>
+            <div class="category-item">
+                <img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="Icons">
+                <span>Icons</span>
+            </div>
+            <div class="category-item">
+                <img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" alt="Amazing views">
+                <span>Amazing views</span>
+            </div>
+            <div class="category-item">
+                <img src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg" alt="Rooms">
+                <span>Rooms</span>
+            </div>
+            <div class="category-item">
+                <img src="https://a0.muscache.com/pictures/957f8022-dfd7-426c-99fd-77ed792f6d7a.jpg" alt="Surfing">
+                <span>Surfing</span>
+            </div>
+            <div class="category-item">
+                <img src="https://a0.muscache.com/pictures/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4.jpg" alt="Ski-in/out">
+                <span>Ski-in/out</span>
+            </div>
+            <div class="category-item">
+                <img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="Amazing pools">
+                <span>Amazing pools</span>
+            </div>
+            <div class="category-item">
+                <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt="OMG!">
+                <span>OMG!</span>
+            </div>
+            <div class="category-item">
+                <img src="https://a0.muscache.com/pictures/33dd714a-7b4a-4654-aaf0-f58ea887a688.jpg" alt="Historical homes">
+                <span>Historical homes</span>
+            </div>
+            <div class="category-item">
+                <img src="https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg" alt="Beach">
+                <span>Beach</span>
+            </div>
+            <div class="category-item">
+                <img src="https://a0.muscache.com/pictures/4759a0a7-96a8-4dcd-9490-ed785af6df14.jpg" alt="Treehouses">
+                <span>Treehouses</span>
+            </div>
+            <button class="category-arrow-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        <div class="filter-btn">
+            <i class="fas fa-sliders-h"></i>
+            <span>Filters</span>
+        </div>
+    </section>
+
+    <!-- Listings Section -->
+    <section class="listings">
+        <div class="row">
+            <!-- Listing 1 -->
+            <div class="listing-card">
+                <div class="listing-image-container">
+                    <button class="favorite-btn"><i class="far fa-heart"></i></button>
+                    <span class="guest-favorite">Guest favourite</span>
+                    <div class="listing-image" style="background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-666497932333660907/original/b7ea6cc7-17ca-4786-ac40-b843c97998b5.jpeg')"></div>
+                    <div class="image-pagination">
+                        <span class="active"></span>
+                        <!-- <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span> -->
+                    </div>
+                </div>
+                <div class="listing-info">
+                    <div class="listing-location">
+                        <span class="location">Manali, India</span>
+                        <span class="rating"><i class="fas fa-star"></i> 4.88</span>
+                    </div>
+                    <div class="listing-distance">389 kilometres away</div>
+                    <div class="listing-dates">14–19 Apr</div>
+                    <div class="listing-price"><span class="price">₹20,769</span> for 5 nights</div>
+                </div>
+            </div>
+
+            <!-- Listing 2 -->
+            <div class="listing-card">
+                <div class="listing-image-container">
+                    <button class="favorite-btn"><i class="far fa-heart"></i></button>
+                    <div class="listing-image" style="background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-48554731/original/ad7d322b-4f30-42e6-87a5-43b08495c06a.jpeg')"></div>
+                    <div class="image-pagination">
+                        <span class="active"></span>
+                    </div>
+                </div>
+                <div class="listing-info">
+                    <div class="listing-location">
+                        <span class="location">Pharog, India</span>
+                        <span class="rating"><i class="fas fa-star"></i> 4.88</span>
+                    </div>
+                    <div class="listing-distance">283 kilometres away</div>
+                    <div class="listing-dates">6–11 Apr</div>
+                    <div class="listing-price"><span class="price">₹20,800</span> for 5 nights</div>
+                </div>
+            </div>
+
+            <!-- Listing 3 -->
+            <div class="listing-card">
+                <div class="listing-image-container">
+                    <button class="favorite-btn"><i class="far fa-heart"></i></button>
+                    <div class="listing-image" style="background-image: url('https://a0.muscache.com/im/pictures/faa9b375-8624-48b5-b043-e96c6154112b.jpg')"></div>
+                    <div class="image-pagination">
+                        <span class="active"></span>
+           
+                    </div>
+                </div>
+                <div class="listing-info">
+                    <div class="listing-location">
+                        <span class="location">Badowala, India</span>
+                        <span class="rating"><i class="fas fa-star"></i> 4.88</span>
+                    </div>
+                    <div class="listing-distance">180 kilometres away</div>
+                    <div class="listing-dates">6–11 Apr</div>
+                    <div class="listing-price"><span class="price">₹62,221</span> for 5 nights</div>
+                </div>
+            </div>
+
+            <!-- Listing 4 -->
+            <div class="listing-card">
+                <div class="listing-image-container">
+                    <button class="favorite-btn"><i class="far fa-heart"></i></button>
+                    <div class="listing-image" style="background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-1023634973203066726/original/8cf00a3e-3814-4ce4-98aa-47c364421e5a.jpeg')"></div>
+                    <div class="image-pagination">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="listing-info">
+                    <div class="listing-location">
+                        <span class="location">Bir, India</span>
+                        <span class="rating"><i class="fas fa-star"></i> 4.88</span>
+                    </div>
+                    <div class="listing-distance">380 kilometres away</div>
+                    <div class="listing-dates">1–6 Jun</div>
+                    <div class="listing-price"><span class="price">₹120,965</span> for 5 nights</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Row of Listings -->
+        <div class="row">
+            <!-- Listing 5 -->
+            <div class="listing-card">
+                <div class="listing-image-container">
+                    <button class="favorite-btn"><i class="far fa-heart"></i></button>
+                    <div class="listing-image" style="background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-854065432551935839/original/34d97bce-1da9-446b-9011-9d113e3c653c.jpeg')"></div>
+                    <div class="image-pagination">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="listing-info">
+                    <div class="listing-location">
+                        <span class="location">Shimla, India</span>
+                        <span class="rating"><i class="fas fa-star"></i> 4.92</span>
+                    </div>
+                    <div class="listing-distance">320 kilometres away</div>
+                    <div class="listing-dates">10–15 May</div>
+                    <div class="listing-price"><span class="price">₹18,500</span> for 5 nights</div>
+                </div>
+            </div>
+
+            <!-- Listing 6 -->
+            <div class="listing-card">
+                <div class="listing-image-container">
+                    <button class="favorite-btn"><i class="far fa-heart"></i></button>
+                    <span class="guest-favorite">Guest favourite</span>
+                    <div class="map-button">Show map <i class="fas fa-map-marked-alt"></i></div>
+                    <div class="listing-image" style="background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-1000346588567403329/original/2982f7a3-cc49-4678-9fb5-408c53d6bf46.jpeg?im_w=720&width=720&quality=70&auto=webp')"></div>
+                    <div class="image-pagination">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="listing-info">
+                    <div class="listing-location">
+                        <span class="location">Dharamshala, India</span>
+                        <span class="rating"><i class="fas fa-star"></i> 4.95</span>
+                    </div>
+                    <div class="listing-distance">290 kilometres away</div>
+                    <div class="listing-dates">15–20 Apr</div>
+                    <div class="listing-price"><span class="price">₹25,000</span> for 5 nights</div>
+                </div>
+            </div>
+
+            <!-- Listing 7 -->
+            <div class="listing-card">
+                <div class="listing-image-container">
+                    <button class="favorite-btn"><i class="far fa-heart"></i></button>
+                    <div class="listing-image" style="background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-680259425509115344/original/41e2e45b-3c6a-4cfa-abe9-54b17fe8735d.jpeg?im_w=720')"></div>
+                    <div class="image-pagination">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="listing-info">
+                    <div class="listing-location">
+                        <span class="location">Kasauli, India</span>
+                        <span class="rating"><i class="fas fa-star"></i> 4.87</span>
+                    </div>
+                    <div class="listing-distance">210 kilometres away</div>
+                    <div class="listing-dates">20–25 Apr</div>
+                    <div class="listing-price"><span class="price">₹24,750</span> for 5 nights</div>
+                </div>
+            </div>
+
+            <!-- Listing 8 -->
+            <div class="listing-card">
+                <div class="listing-image-container">
+                    <button class="favorite-btn"><i class="far fa-heart"></i></button>
+                    <span class="guest-favorite">Guest favourite</span>
+                    <div class="listing-image" style="background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-47502219/original/f9eaf2af-8ce8-452c-b3fa-8862e8d193d7.jpeg?im_w=720')"></div>
+                    <div class="image-pagination">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="listing-info">
+                    <div class="listing-location">
+                        <span class="location">Mussoorie, India</span>
+                        <span class="rating"><i class="fas fa-star"></i> 4.97</span>
+                    </div>
+                    <div class="listing-distance">350 kilometres away</div>
+                    <div class="listing-dates">1–6 May</div>
+                    <div class="listing-price"><span class="price">₹35,500</span> for 5 nights</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
