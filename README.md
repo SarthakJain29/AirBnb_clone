@@ -11,4 +11,4 @@ Major css concepts used:
 
 A Preview:-
 
-![Image](httattachments/assets/9c8e727aps://github.com/user--ba92-4bb2-818d-29a61d78343f)
+![Image](https://github.com/user-attachments/assets/2536792b-d16d-4a6b-a331-e40ab16e49b0)
