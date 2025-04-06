@@ -6,6 +6,7 @@ using html and css
 
 Simply bring the project to your local machine, Go live and <br> 
 Enjoy an exact clone of AirBnb with apt detailing and responsiveness <br>
+<br>
 Major css concepts used:
 -Flexbox <br>
 -BoxModel <br>
