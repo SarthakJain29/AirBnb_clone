@@ -1,8 +1,10 @@
+![Image](https://github.com/user-attachments/assets/88439a41-cca4-4ccd-a004-a990c709ba1e)
+
 AIRBNB CLONE
 using html and css
 (HOW TO CSS : Assignment 3)
 
-Simply bring the project to your local machine, go live and enjoy an exact clone of AirBnb
+Simply bring the project to your local machine, go live and enjoy an exact clone of AirBnb. <br>
 Major css concepts used:
 -Flexbox <br>
 -BoxModel <br>
