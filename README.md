@@ -4,7 +4,8 @@ AIRBNB CLONE
 using html and css
 (HOW TO CSS : Assignment 3)
 
-Simply bring the project to your local machine, go live and enjoy an exact clone of AirBnb. <br>
+Simply bring the project to your local machine, Go live and <br> 
+Enjoy an exact clone of AirBnb with apt detailing and responsiveness <br>
 Major css concepts used:
 -Flexbox <br>
 -BoxModel <br>
