@@ -4,9 +4,9 @@ using html and css
 
 Simply bring the project to your local machine, go live and enjoy an exact clone of AirBnb
 Major css concepts used:
--Flexbox
--BoxModel
--Positions
+-Flexbox <br>
+-BoxModel <br>
+-Positions <br>
 -Media queries
 
 A Preview:-
